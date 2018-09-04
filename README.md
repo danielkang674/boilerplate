@@ -1,1 +1,2 @@
-# boilerplate
+# poketeam
+A Pokemon team builder
