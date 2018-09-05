@@ -11,5 +11,5 @@ const knex = require('knex')({
   }
 });
 
-knex('pokedex').select().then(() => console.log('Database Connected'));
+knex('TABLE_NAME_GOES_HERE').select().then(() => console.log('Database Connected'));
 module.exports = { knex };
