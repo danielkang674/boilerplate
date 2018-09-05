@@ -1,5 +1,4 @@
 require('dotenv').config();
-const pg = require('pg');
 const knex = require('knex')({
   client: 'pg',
   connection: {
@@ -11,5 +10,5 @@ const knex = require('knex')({
   }
 });
 
-knex('TABLE_NAME_GOES_HERE').select().then(() => console.log('Database Connected'));
+knex('ENTER_TABLE_NAME').select().then(() => console.log('Database Connected'));
 module.exports = { knex };

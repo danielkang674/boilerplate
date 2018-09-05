@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const knex = require('../db/index.js');
+const session = require('express-session');
 
 const port = process.env.PORT || 3000;
 

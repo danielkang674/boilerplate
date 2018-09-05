@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicole-nguyen1/poketeam.git"
+    "url": "git+https://github.com/nicole-nguyen1/boilerplate.git"
   },
   "author": "Nicole Nguyen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicole-nguyen1/poketeam/issues"
+    "url": "https://github.com/nicole-nguyen1/boilerplate/issues"
   },
-  "homepage": "https://github.com/nicole-nguyen1/poketeam#readme",
+  "homepage": "https://github.com/nicole-nguyen1/boilerplate#readme",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
